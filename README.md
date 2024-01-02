@@ -1,1 +1,1 @@
-# rock-paper-scissors
+Small project to deepen my DOM knowledge
