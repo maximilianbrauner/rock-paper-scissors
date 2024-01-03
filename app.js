@@ -21,7 +21,7 @@ finalBtn.setAttribute(
   "font-size: 15px; border-radius: 6px; border-style: none; color: #fca311; background: #22223b; padding: 10px; cursor: pointer;"
 );
 function getComputerChoice() {
-  const choices = ["rock", "paper", "scissor"];
+  const choices = ["rock", "paper", "scissors"];
   const computerChoice = choices[Math.floor(Math.random() * choices.length)];
   return computerChoice;
 }
@@ -32,9 +32,9 @@ function updateScore() {
 function playRound(playerSelection) {
   computerSelection = getComputerChoice();
   if (
-    (playerSelection == "rock" && computerSelection == "scissor") ||
+    (playerSelection == "rock" && computerSelection == "scissors") ||
     (playerSelection == "paper" && computerSelection == "rock") ||
-    (playerSelection == "scissor" && computerSelection == "paper")
+    (playerSelection == "scissors" && computerSelection == "paper")
   ) {
     playerScore += 1;
     updateScore();
