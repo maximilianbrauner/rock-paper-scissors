@@ -25,11 +25,11 @@ function playRound(playerSelection) {
     (playerSelection == "scissor" && computerSelection == "paper")
   ) {
     playerScore += 1;
-    div.textContent = `You win. ${playerSelection} beats ${computerSelection}.`;
+    div.textContent = `You win. ${playerSelection.slice()} beats ${computerSelection}.`;
     updateScore();
   } else if (playerSelection == computerSelection) {
     tieCounter += 1;
-    div.textContent = `It's a tie.. again... You both choose ${playerSelection} and the tie-counter is: ${tieCounter}`;
+    div.textContent = `It's a tie.. again... You both choose ${playerSelection}`;
   } else {
     computerScore += 1;
     div.textContent = `Computer wins. ${computerSelection} beats ${playerSelection}.`;
@@ -38,7 +38,7 @@ function playRound(playerSelection) {
   resultDiv.appendChild(div);
 }
 function updateScore() {
-  scoreDiv.textContent = `Player score: ${playerScore} Computer score: ${computerScore}`;
+  scoreDiv.textContent = `Player score: ${playerScore} Computer score: ${computerScore} `;
   resultDiv.appendChild(scoreDiv);
 }
 const button = document.querySelectorAll(".buttons");
