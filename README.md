@@ -1,5 +1,4 @@
-<h1>Project to deepen my knowledge of DOM</h1>
-<p><h2>here you can checkout the demo of my project</h2>
-https://maxinheaven.github.io/rock-paper-scissors/<br>
-future plans are to implement the player and computer choices as symbols</p>
-
+<h1>Rock Paper Scissors</h1>
+<p>Rock Paper Scissor game created with HTML, CSS & JS </p>
+<p>Did this Project to deepen my knowledge of the DOM</p>#
+[Demo link](https://maxinheaven.github.io/rock-paper-scissors/)
