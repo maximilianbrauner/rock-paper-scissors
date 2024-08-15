@@ -4,4 +4,4 @@ This project is a Rock Paper Scissors game created with HTML, CSS, and JavaScrip
 
 I built this project to deepen my knowledge of the DOM.
 
-[Demo 👉](https://maxinheaven.github.io/rock-paper-scissors/) 
+[Demo 👉](https://maximilianbrauner.github.io/rock-paper-scissors/) 
